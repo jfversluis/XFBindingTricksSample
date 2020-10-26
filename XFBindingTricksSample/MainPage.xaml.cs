@@ -13,6 +13,8 @@ namespace XFBindingTricksSample
         public MainPage()
         {
             InitializeComponent();
+
+            BindingContext = new MyBindingObject();
         }
     }
 }
